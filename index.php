@@ -36,8 +36,8 @@ include 'header.php';
                         <td><?php echo $row['classname'];  ?></td>
                         <td><?php echo $row['sphone'];  ?></td>
                         <td>
-                            <a href='edit.php'>Edit</a>
-                            <a href='delete-inline.php'>Delete</a>
+                            <a href='edit.php?id=<?php echo $row['sid'] ?>'>Edit</a>
+                            <a href='delete-inline.php?id=<?php echo $row['sid'] ?>'>Delete</a>
                         </td>
                     </tr>
 
